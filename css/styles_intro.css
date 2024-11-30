@@ -55,9 +55,20 @@ img {
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid #ccc;
-    position: absolute; /* Posicionar absolutamente */
-    top: 10px; /* Distancia desde la parte superior */
-    left: 10px; /* Distancia desde la izquierda */
+    position: absolute; /* Absolute positioning */
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .back-button {
+        margin: 5px; /* Reduce margin */
+        padding: 5px 10px; /* Reduce padding */
+        font-size: 0.8em; /* Adjust font size */
+        top: 5px; /* Adjust position from the top */
+        left: 5px; /* Adjust position from the left */
+    }
 }
 
 .back-button:hover {
