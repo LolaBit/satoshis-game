@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
             case 'bio2':
                 bioContent = `
-                    <h2>Nombre: Lionel Messi</h2>
+                    <h2>Nombre: Lionel Mancini</h2>
                     <p><strong>Edad:</strong> 34 años</p>
                     <p><strong>Origen:</strong> Rosario, Argentina</p>
-                    <p><strong>Ocupación:</strong> Futbolista Profesional</p>
+                    <p><strong>Ocupación:</strong> Economista</p>
                     <h3>Historia:</h3>
-                    <p>Lionel Messi es uno de los mejores jugadores de fútbol de todos los tiempos. Ha jugado la mayor parte de su carrera en el FC Barcelona, donde ha ganado numerosos títulos y premios individuales. Actualmente, juega para el Paris Saint-Germain y la selección argentina, con la que ganó la Copa América en 2021.</p>
+                    <p>Lionel Mancini es un Economista que ha sido reconocido por primera vez gracias al éxito del presidente Javier Milei. Pese a esto su moneda se sigue devaluando y ha sufrido controles de capital y la necesidad de usar las "Cuevas".</p>
                 `;
                 break;
             case 'bio3':

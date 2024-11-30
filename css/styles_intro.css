@@ -45,3 +45,30 @@ img {
 .character-info.visible {
     display: block; /* Mostrar cuando esté activa */
 }
+
+.back-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    position: absolute; /* Posicionar absolutamente */
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la izquierda */
+}
+
+.back-button:hover {
+    background-color: #ccc;
+    border-color: #bbb;
+    color: #000;
+}
+
+header {
+    position: relative; /* Necesario para que el botón se posicione relativamente al header */
+    padding: 1em 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
