@@ -61,7 +61,7 @@ img {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 15%) {
     .back-button {
         margin: 5px; /* Reduce margin */
         padding: 5px 10px; /* Reduce padding */
