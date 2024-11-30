@@ -16,6 +16,6 @@ main {
 }
 
 img {
-    width: 35%; /* Ajusta el tamaño al 50% del contenedor */
+    width: 30%; /* Ajusta el tamaño al 50% del contenedor */
     height: auto;
 }
