@@ -16,7 +16,7 @@ main {
 }
 
 img {
-    width: 100%; /* Ajusta el tamaño al 50% del contenedor */
+    width: 50%; /* Ajusta el tamaño al 50% del contenedor */
     height: auto;
 }
 
