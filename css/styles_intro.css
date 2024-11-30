@@ -1,0 +1,47 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+.character-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre las imágenes */
+    max-width: 60%; /* Ajusta el tamaño del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+img {
+    width: 70%; /* Ajusta el tamaño al 70% del contenedor */
+    height: auto;
+}
+
+.character {
+    text-align: center; /* Centrar la descripción */
+}
+
+.character-info {
+    display: none; /* Ocultar por defecto */
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.character-info.visible {
+    display: block; /* Mostrar cuando esté activa */
+}
