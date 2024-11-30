@@ -16,30 +16,6 @@ main {
 }
 
 img {
-    width: 50%; /* Ajusta el tamaño al 50% del contenedor */
+    width: 35%; /* Ajusta el tamaño al 50% del contenedor */
     height: auto;
-}
-
-.character-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Espacio entre las imágenes */
-}
-
-.character {
-    text-align: center; /* Centrar la descripción */
-}
-
-.character-info {
-    display: none; /* Ocultar por defecto */
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-.character-info.visible {
-    display: block; /* Mostrar cuando esté activa */
 }
