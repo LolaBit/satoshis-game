@@ -2,11 +2,11 @@ body {
     font-family: 'Press Start 2P', cursive;
     margin: 0;
     padding: 0;
-    background-color: orange; /* Color de fondo naranja */
+    background-color: orange; /* Fondo de toda la página */
 }
 
 header, footer {
-    background-color: #f8f8f8;
+    background-color: orange; /* Cambia el fondo del encabezado y pie de página */
     text-align: center;
     padding: 1em 0;
 }
@@ -14,6 +14,7 @@ header, footer {
 main {
     padding: 2em;
     text-align: center;
+    background-color: orange; /* Fondo del contenido principal */
 }
 
 .character-container {
@@ -23,15 +24,7 @@ main {
     gap: 20px; /* Espacio entre las imágenes */
     max-width: 60%; /* Ajusta el tamaño del contenedor */
     margin: 0 auto; /* Centra el contenedor */
-}
-
-img {
-    width: 70%; /* Ajusta el tamaño al 70% del contenedor */
-    height: auto;
-}
-
-.character {
-    text-align: center; /* Centrar la descripción */
+    background-color: orange; /* Fondo del contenedor de personajes */
 }
 
 .character-info {
@@ -40,18 +33,14 @@ img {
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-.character-info.visible {
-    display: block; /* Mostrar cuando esté activa */
+    background-color: orange; /* Fondo de la información de los personajes */
 }
 
 .back-button {
     display: inline-block;
     margin: 10px;
     padding: 0.35% 0.75%;
-    background-color: #ddd;
+    background-color: orange; /* Fondo del botón */
     color: #333;
     text-decoration: none;
     border-radius: 5%;
@@ -82,5 +71,5 @@ header {
     position: relative; /* Necesario para que el botón se posicione relativamente al header */
     padding: 1em 0;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: orange; /* Fondo del header */
 }
